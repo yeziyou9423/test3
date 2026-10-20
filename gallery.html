@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="zh-CN" data-page-node-id="58AEaesMWFu5RisTLJ5ToW">
+<head data-page-node-id="AjO1p5ZnFKRmmW6WQP0sf8">
+<meta charset="UTF-8" data-page-node-id="44Hf0eBHUraIOg0vnuxf7N">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" data-page-node-id="8WRfkKRtj0X3Zq7I65hsMI">
+<title>作品 — yeziyou</title>
+<meta name="description" content="yeziyou 的前端开发作品：8 个项目案例，滚动转动作品球，点击查看详情。" data-page-node-id="AQl3j91xlpoWOdNIGnhXVQ">
+<meta name="theme-color" content="#F3FAF7" data-page-node-id="yF62xmq86FmggFw566NQI5">
+<meta name="author" content="yeziyou" data-page-node-id="vs1yBLv8v0Pm5GyfvYsEe6">
+
+<meta property="og:type" content="website" data-page-node-id="grlMLBlmhaFGGsJm7FIQNx">
+<meta property="og:title" content="作品 — yeziyou" data-page-node-id="nDtAWLeGegfYK5THt40or4">
+<meta property="og:description" content="yeziyou 的前端开发作品：8 个项目案例。" data-page-node-id="q8HLZJFFMSpuKibhhOmLjE">
+<meta property="og:image" content="assets/img/cover-01.png" data-page-node-id="WoH72RRPEAHhPc5EQcaey4">
+
+<link rel="icon" type="image/svg+xml" href="assets/favicon.svg" data-page-node-id="Ir2ECFBrWBSlKXLcwhH0BF">
+<link rel="preconnect" href="https://fonts.googleapis.com" data-page-node-id="MqS49k3zCK5pYHo8P8Sg7U">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin data-page-node-id="2KDFbuaqgAvYiswwDXUJaP">
+<link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Inter:wght@400;500;600&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet" data-page-node-id="6WXlBiPr1jZRIJdrsCVlT9">
+<link rel="stylesheet" href="assets/css/style.css" data-page-node-id="rfZH9he0kGQovNZNAJEXcU">
+</head>
+<body data-page="works" data-page-node-id="8G7PQzwDmrUC7NiZ0Cf1Uy">
+
+<canvas id="starfield" aria-hidden="true" data-page-node-id="40eWru5Xz5qDz6pRQzLawE"></canvas>
+
+<nav class="nav" data-page-node-id="hXZsLgDP2ORDchdx0D8TUV">
+  <a class="nav__brand" href="index.html" data-page-node-id="TdPHqKonwTt0uiNjtVpz9N">yeziyou</a>
+  <div class="nav__links" data-page-node-id="HepviHpIn0s4PJkcddhDuP">
+    <a class="nav__link" href="gallery.html" data-page-node-id="s2HoMTxKmYGPAFcjKOKbsO">Works</a>
+    <a class="nav__link" href="about.html" data-page-node-id="bU68MAZ8T50FwFDiERUQWk">About</a>
+    <a class="nav__link" href="contact.html" data-page-node-id="yWCFtnHeFCnRIUBvyjOlAg">Contact</a>
+  </div>
+</nav>
+
+<main data-page-node-id="7Dy473VbsakVkJbnSGJlTB">
+  <!-- ================= 照片球：整套作品的视觉索引 ================= -->
+  <section class="hero" id="ball" aria-label="作品照片球" data-page-node-id="jns0ezoonHJBFKDJdM6HTY">
+    <div class="cluster" id="hero-cluster" data-page-node-id="YoITxWRTPl7lj7r3yA0U8C"></div>
+
+    <!-- 自定义星形光标（仅桌面端） -->
+    <div class="stage__cursor" id="stage-cursor" aria-hidden="true" data-page-node-id="E1hSiyHWejZCO9Fe0BxMN3"><span class="stage__cursor-star" data-page-node-id="G0HWEZ6D7soJw94NmuRXoA"><i data-page-node-id="HVa7AyxciH56hGI44qhoei"></i></span><span class="stage__cursor-txt" data-page-node-id="yIwGXJ5fuVhYAqQcjq8xDH">Enter</span></div>
+
+    <!-- 悬停照片时，页面底部显示当前作品名称 -->
+    <div class="scatter__caption" id="hero-caption" aria-hidden="true" data-page-node-id="ipNTm9CSE9jav4WQnp1dUP"></div>
+
+    <!-- 操作提示：滚轮 / 拖动转动球体 -->
+    <p class="ball__hint" aria-hidden="true" data-page-node-id="ap0AjwlPD2AHkiFMj57O3n">滚轮 / 拖动 · 转动作品球</p>
+    <a class="ball__skip" href="#works" data-page-node-id="mpkbwtRDjV5WrexoK9c0TH">全部作品 <span class="arw" data-page-node-id="HPsRCj1EjGkCZggZ4xVjxZ">↓</span></a>
+  </section>
+
+  <section class="works" id="works" data-page-node-id="pTJtN8IUsmUEzUVLTTRHrO">
+    <div class="works__head" data-page-node-id="XrloLcQWdKA9JMc9Jh93jh">
+      <h2 class="works__title" data-page-node-id="k1MQLFCGAESlkGmmB7k2Bx">Selected<br data-page-node-id="EkWJShHLR4Abb1zlNUsXTX">Works</h2>
+      <div class="works__meta" data-page-node-id="ywll3UM7t1kHomSqoV619P"></div>
+    </div>
+    <div class="works__filters" id="works-filters" role="group" aria-label="按类型筛选作品" data-page-node-id="ygims75FPxwmv1Dv27xrvv"></div>
+    <div class="grid-wrap" data-page-node-id="l7ANAsyzpeVFah7UGbDpId">
+      <div class="grid" id="grid" data-page-node-id="PrnNNz0xlWpD31rxciKCHu"></div>
+    </div>
+  </section>
+</main>
+
+<!-- ================= 页脚 ================= -->
+<footer class="footer" data-page-node-id="kr8pJLludLyaLJO1GSrvX0">
+  <p class="footer__kicker" data-page-node-id="O2TXLX57jhgOl5bONfcBnK">Let's work together</p>
+  <a class="footer__mail" href="mailto:yzysepp4i@gmail.com" data-page-node-id="xw9HSwEXOQWHoKM4DHmVU1">yzysepp4i@gmail.com</a>
+  <a class="footer__tel" href="tel:15397953018" data-page-node-id="RDsjvi8bS2vVQgxZCsOanB">电话 / Tel &nbsp;153 9795 3018</a>
+  <div class="footer__row" data-page-node-id="zGVxSp03xx2XXNldPsrxfp">
+    <span data-page-node-id="HSsCzAlOUhNUserGKFKCzv">© 2026 yeziyou · 晏紫翊</span>
+    <span data-page-node-id="AcxUPqLrJ9ZKlRtkB0WKaI">Built by yeziyou</span>
+    <span class="footer__btns" data-page-node-id="l1Zv1ylM9EAuqtQXChHn0U">
+      <button class="btn" data-copy="yzysepp4i@gmail.com" data-page-node-id="jiopOFxEwXEsNekvDxzbSi">复制邮箱</button>
+      <button class="btn" data-copy="15397953018" data-page-node-id="1MNeJQthwmHrZVdjylvYVk">复制电话</button>
+    </span>
+  </div>
+</footer>
+
+<script src="assets/js/data.js"></script>
+<script src="assets/js/hero.js"></script>
+<script src="assets/js/starfield.js"></script>
+<script src="assets/js/main.js"></script>
+</body>
+</html>
